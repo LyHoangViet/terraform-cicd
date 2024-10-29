@@ -25,7 +25,7 @@ jobs:
   build-and-push:
     # this comment need when you implement in prod env (1)
     # needs: check_changes_backend
-    # if: ${{ needs.check_changes_backend.outputs.backend == 'true' }}
+    # if: ${{ needs.check_changes_backend.outputs.backend == 'true' }} 
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
