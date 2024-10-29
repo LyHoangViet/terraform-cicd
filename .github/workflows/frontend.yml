@@ -68,7 +68,7 @@ jobs:
       - name: Deploy Frontend
         env:
           TASK_NAME_FE: ${{ secrets.TASK_NAME_FE }}
-          CLUSTER_NAME: ${{ secrets.CLUSTER_NAME }}
+          CLUSTER_NAME: ${{ secrets.CLUSTER_NAME }} 
           SERVICE_NAME_FE: ${{ secrets.SERVICE_NAME_FE }}
           IMAGE_NAME_FE: ${{ env.IMAGE_NAME_FE }}
           REGION: ${{ secrets.AWS_REGION }}
