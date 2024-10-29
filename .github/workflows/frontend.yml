@@ -5,7 +5,7 @@ on:
 
 # Use Docker Hub
 env:
-  IMAGE_NAME_FE: ${{ secrets.DOCKER_USERNAME }}/fcj-lab-docker:${{ github.ref_name }}
+  IMAGE_NAME_FE: ${{ secrets.DOCKER_USERNAME }}/frontend:${{ github.ref_name }}
 
 jobs:
   # this comment need when you implement in prod env (1)
