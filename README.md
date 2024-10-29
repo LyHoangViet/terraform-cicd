@@ -5,7 +5,7 @@
     <img src="./logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">RESTOBAR hoang</h3>
+  <h3 align="center">RESTOBAR</h3>
 
   <p align="center">
     Restaurant Management App.
